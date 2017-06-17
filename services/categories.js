@@ -1,4 +1,4 @@
-var categoryServiceEndpoint = "http://www.mocky.io/v2/594418951200000b0dfcb574";
+var categoryServiceEndpoint = "http://www.mocky.io/v2/594475f61200000016fcb611";
 var request = require('request-promise');
 
 module.exports = {
