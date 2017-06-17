@@ -15,9 +15,7 @@ module.exports = {
 
         var servicePromise = new Promise((resolve, reject) => {
             
-            var fetch = request(options) || undefined;
-            
-            fetch.then(function(categories){
+            request(options).then(function(categories){
                 
                 var categoryList = {};
                 
